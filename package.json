@@ -1,0 +1,17 @@
+{
+  "name": "xyz-web-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "prada, wafa",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.5.1"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "babel-plugin-module-resolver": "4"
+  },
+  "scripts": {
+    "cy:open": "cypress open"
+  }
+}
